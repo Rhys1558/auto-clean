@@ -22,12 +22,13 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px blue;
+    box-shadow: 0 2px 2px yellow;
 }
 
 h1 {
     font-family: 'roboto', sans-serif;
     color: yellow;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -40,7 +41,17 @@ header a {
 
 #menu {
     text-align: center;
+    letter-spacing: 3px;
+    font-size: 100%;
 
+}
+
+#menu > li {
+    margin-bottom: 1em;
+    text-align: center;
+}
+.active {
+    color: red;
 }
 
 /* Main content */
