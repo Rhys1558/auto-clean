@@ -1,0 +1,25 @@
+/* Asterisk wild selector to override default styles added by the brower */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* header */
+header {
+    background-color: blue;
+    color: white;
+}
+
+/* main content */
+main {
+    background-color: aqua;
+    color: black;
+}
+
+/* footer */
+footer {
+    background-color: blue;
+    color: white;
+}
