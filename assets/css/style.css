@@ -18,23 +18,24 @@ body {
 
 /* Header */
 header {
-    background-color: blue;
+    background-color: black;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px black;
+    box-shadow: 0 2px 2px blue;
 }
 
 h1 {
     font-family: 'roboto', sans-serif;
-    color:black;
+    color: yellow;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: yellow;
 }
 
 header a {
     text-decoration: none;
+    color: rgb(200, 255, 0);
+
 }
 
 #menu {
@@ -44,7 +45,7 @@ header a {
 
 /* Main content */
 main {
-    background-color: aqua;
+    background-color: rgb(45, 121, 183);
     color: black;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
@@ -52,6 +53,6 @@ main {
 
 /* Footer */
 footer {
-    background-color: blue;
+    background-color: black;
     color: yellow;
 }
