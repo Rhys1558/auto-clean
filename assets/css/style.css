@@ -18,12 +18,15 @@ body {
 
 /* Header */
 header {
-    background-color: black;
+    background-color: rgb(141, 58, 58);
     position: fixed;
     z-index: 99;
     padding: 0 1rem;
     width: 100%;
     box-shadow: 0 2px 2px yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 h1 {
@@ -64,7 +67,21 @@ nav {
     box-shadow: 0 2px 2px yellow;
     left: 0;
     display: none;
+    top: 100%;
 
+}
+
+/* nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main content */
