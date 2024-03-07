@@ -21,6 +21,7 @@ header {
     background-color: black;
     position: fixed;
     z-index: 99;
+    padding: 0 1rem;
     width: 100%;
     box-shadow: 0 2px 2px yellow;
 }
@@ -52,6 +53,11 @@ header a {
 }
 .active {
     color: red;
+}
+
+/* dropdown menu */
+nav {
+    position: absolute;
 }
 
 /* Main content */
