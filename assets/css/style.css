@@ -5,20 +5,29 @@
     box-sizing: border-box;
 
 }
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 
-/* header */
+}
+
+/* Header */
 header {
     background-color: blue;
     color: white;
 }
 
-/* main content */
+/* Main content */
 main {
     background-color: aqua;
     color: black;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
 }
 
-/* footer */
+/* Footer */
 footer {
     background-color: blue;
     color: white;
