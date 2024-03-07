@@ -41,15 +41,15 @@ header a {
 }
 
 #menu {
-    text-align: center;
     letter-spacing: 3px;
+    list-style-type: none;
     font-size: 100%;
+
 
 }
 
 #menu > li {
     margin-bottom: 1em;
-    text-align: center;
 }
 .active {
     color: red;
@@ -58,6 +58,13 @@ header a {
 /* dropdown menu */
 nav {
     position: absolute;
+    background-color: black;
+    padding: 0 1rem;
+    width: 100%;
+    box-shadow: 0 2px 2px yellow;
+    left: 0;
+    display: none;
+
 }
 
 /* Main content */
@@ -72,4 +79,5 @@ main {
 footer {
     background-color: black;
     color: yellow;
+    width: 100%;
 }
