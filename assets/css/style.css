@@ -18,8 +18,7 @@ body {
 
 /* Header */
 header {
-    background-color: white;
-    color: black;
+    background-color: blue;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -28,6 +27,19 @@ header {
 
 h1 {
     font-family: 'roboto', sans-serif;
+    color:black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: yellow;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#menu {
+    text-align: center;
+
 }
 
 /* Main content */
@@ -41,5 +53,5 @@ main {
 /* Footer */
 footer {
     background-color: blue;
-    color: white;
+    color: yellow;
 }
