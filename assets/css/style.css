@@ -34,7 +34,7 @@ h2, h3 {
 
 /* Header */
 header {
-    background-color: aqua;
+    background-color: black;
     position: fixed;
     z-index: 99;
     padding: 0 1rem;
@@ -142,6 +142,10 @@ main {
     padding-right: 5px;
 }
 
+/* burger menu style */
+.fa-solid {
+    color: orange;
+}
 
 /* Footer */
 #social-networks {
