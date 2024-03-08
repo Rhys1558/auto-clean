@@ -1,39 +1,88 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Auto Clean
 
-Welcome,
+This website was made to help people easily get pricing and contact information to make it easier to make bookings using this website.
+User will find all they need about prices and how to contact the company.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Screenshot 2024-03-08 110047](https://github.com/Rhys1558/auto-clean/assets/155891872/b2ffffbe-e9fc-4cc2-aa88-5e2ef21b55d0)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Features
 
-## Codeanywhere Reminders
+#### Navigation
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
++ Navigation bar has the company name to the left and a navigation drop down menu to the right.
++ The navigation link includ: Home, About us and services page.
++ I picked a colour theme that made it easy to see the content in the navigation bar.
++ The links to the other pages and hidden in a burger icon for mobile useer for better design.
 
-`python3 -m http.server`
+  ## Auto Clean
+  
+  #### The header
+  
+  + The header colour scheme is orange with a black background.
+  + This makes it very easy to see all the elements in the head.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+    ![Screenshot 2024-03-08 111654](https://github.com/Rhys1558/auto-clean/assets/155891872/1a044968-5ec9-4579-9f5e-5081a5a216fc)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+  #### About us section
+  
+  + The about us page contects content about the companys achievements.
+  + Also it leads user to our last page being the services page.
+  
+    ![Screenshot 2024-03-08 112102](https://github.com/Rhys1558/auto-clean/assets/155891872/4683af16-ec3e-43a7-aa19-92a756e0e1bc)
 
-`http_server`
+    #### Services section
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    + The services page lists the services the company does.
+    + The services page also lists the prices of those services.
+    + The services page also tells you how to get in contect with company.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+   #### The Social links section
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  + This section has all the links for the social media pages of the company.
+  + This section lets user get in contact with the company.
 
-To log into the Heroku toolbelt CLI:
+  #### Testing
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  + I tested that this website works on all different devices.
+  + I tested that all the links were working.
+  + I tested that all images load where they were meant to.
+ 
+  #### Bugs
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  ##### Solved bugs
+  
+  + I had a bug with google style not working properly.
+  + I had a bug of div boxes being overlaysped.
 
----
+   ##### Bugs not fixed
 
-Happy coding!
+  + None
+ 
+  #### Validator testing
+  
+  ##### HTML
+
+  + No errors when posted to W3C validator.
+ 
+  ##### CSS
+  
+  + No errors when posted to jigsaw validator.
+
+ ##### Accessibility
+
+ + I used lighthouse in devtools to get my website score.
+
+  ![Screenshot 2024-03-08 114023](https://github.com/Rhys1558/auto-clean/assets/155891872/10849e1d-4119-41ed-8207-76c91da1c824)
+
+  ## Deployment
+
+  #### This website was deployed to github pages.
+
+  + I when throught the github repository, navigate and then to the settings tab.
+  + From there i selected master branch.
+  + When the master branch was selected, the page had given me my link to the deployed website.
+
+The link is: https://rhys1558.github.io/auto-clean/
+
+  
+    
