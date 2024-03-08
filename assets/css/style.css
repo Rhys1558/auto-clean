@@ -109,6 +109,14 @@ main {
     
 }
 
+/* about-us-background-image */
+#about-us-background-image {
+    height: 600px;
+    width: 100%;
+    background: url("../css/images/about-us-background-image.webp") no-repeat center center/cover;
+    position: relative;
+}
+
 #cover-text {
     background-color: rgba(255, 165, 0, .7);
     font-size: 130%;
@@ -121,6 +129,19 @@ main {
     padding-left: 5px;
     padding-right: 5px;
 }
+
+#about-us-text{
+    background-color: rgba(255, 165, 0, .7);
+    font-size: 100%;
+    position: absolute;
+    width: 100%;
+    min-height: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 
 /* Footer */
 #social-networks {
