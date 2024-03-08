@@ -117,6 +117,13 @@ main {
     position: relative;
 }
 
+#services-background-image {
+    height: 600px;
+    width: 100%;
+    background: url("../css/images/services-background-image.webp") no-repeat center center/cover;
+    position: relative;
+}
+
 #cover-text {
     background-color: rgba(255, 165, 0, .7);
     font-size: 130%;
@@ -170,6 +177,44 @@ main {
 
 #middle {
     color: orange;
+}
+
+#services-top {
+    background-color: rgba(255, 165, 0, .7);
+    font-size: 100%;
+    position: absolute;
+    width: 100%;
+    min-height: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#services-middle {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 100%;
+    position: absolute;
+    top: 240px; 
+    width: 100%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#services-end {
+    background-color: rgba(255, 165, 0, 0.7);
+    font-size: 100%;
+    position: absolute;
+    top: 440px; 
+    width: 100%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 /* burger menu style */
@@ -240,6 +285,14 @@ main {
         top: 280px;
     }
     #about-us-bottom {
+        top: 480px;
+    }
+    
+    #services-middle {
+        top: 280px;
+    }
+
+    #services-end {
         top: 480px;
     }
 }
