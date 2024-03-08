@@ -86,11 +86,16 @@ nav {
 
 /* Main content */
 main {
-    background-color: rgb(0, 90, 164);
-    color: yellow;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 40px;
+}
+
+/* Main background image */
+#main-background-image {
+    height: 600px;
+    width: 100%;
+    background: url("../css/images/background-image-car-wash.webp") no-repeat center center/cover;
 }
 
 /* Footer */
