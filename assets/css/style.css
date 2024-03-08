@@ -18,12 +18,12 @@ body {
 
 /* Header */
 header {
-    background-color: rgb(141, 58, 58);
+    background-color: aqua;
     position: fixed;
     z-index: 99;
     padding: 0 1rem;
     width: 100%;
-    box-shadow: 0 2px 2px yellow;
+    box-shadow: 0 2px 2px orange;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -31,7 +31,7 @@ header {
 
 h1 {
     font-family: 'roboto', sans-serif;
-    color: yellow;
+    color: orange;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -39,7 +39,7 @@ h1 {
 
 header a {
     text-decoration: none;
-    color: rgb(200, 255, 0);
+    color: orange;
 
 }
 
@@ -55,7 +55,7 @@ header a {
     margin-bottom: 1em;
 }
 .active {
-    color: red;
+    color: yellow;
 }
 
 /* dropdown menu */
@@ -86,18 +86,28 @@ nav {
 
 /* Main content */
 main {
-    background-color: rgb(45, 121, 183);
-    color: black;
+    background-color: rgb(0, 90, 164);
+    color: yellow;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 40px;
 }
 
 /* Footer */
-footer {
-    background-color: black;
-    color: yellow;
-    width: 100%;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    list-style-type:none;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+}
+
+#social-networks i {
+    color: orange;
+    padding: 5%;
+    font-size: 160%;
+
 }
 
 /* media query: tablets and larger (768px and up) */
