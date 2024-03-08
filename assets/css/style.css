@@ -236,6 +236,12 @@ main {
         padding-top: 45px;
         padding-left: 10px;
     }
+    #about-us-middle {
+        top: 280px;
+    }
+    #about-us-bottom {
+        top: 480px;
+    }
 }
 
 /* larger devices (laptops and desktops, 992px and up) */
@@ -243,5 +249,4 @@ main {
     #menu a:hover{
         color: white;
     }
-    
 }
